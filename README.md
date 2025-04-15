@@ -1,34 +1,31 @@
-# Streamer Chat Overlay Application
-
-![screenshot](./assets/screenshot.png)
-
+# Virtual Stream
 
 ## Overview
-A real-time chat overlay system designed for live streaming platforms. This application provides a seamless chat display experience with WebSocket integration, user-specific color schemes, and smooth animations.
-
-## Features
-- Real-time chat overlay with WebSocket integration
-- Customizable chat display settings
-- Smooth animation effects
-- User-specific color schemes
-- Easy integration with popular streaming platforms
+A desktop streaming application that provides real-time chat overlay and streaming features. Built with React and Electron for cross-platform compatibility and WebSocket for real-time communication.
 
 ## Tech Stack
-- Next.js
-- TypeScript
-- WebSocket
-- Tailwind CSS
+- **Frontend:** React
+- **Desktop Framework:** Electron
+- **Real-time Communication:** WebSocket
+- **Language:** JavaScript
 
-## Getting Started
+## Features
+- Desktop Application Support (Windows, macOS)
+- Real-time Chat Overlay
+- Customizable UI Settings
+- Low Latency Communication
+- Stream Integration Support
+
+## Installation
 
 ### Prerequisites
 - Node.js (v16 or higher)
 - npm or yarn
 
-### Installation
+### Development Setup
 1. Clone the repository
 ```bash
-git clone https://github.com/[username]/streamer.git
+git clone https://github.com/yngkim/Virtual-Stream.git
 ```
 
 2. Install dependencies
@@ -38,25 +35,23 @@ npm install
 yarn install
 ```
 
-3. Run the development server
+3. Start the development server
 ```bash
 npm run dev
 # or
 yarn dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## Usage
-1. Configure your streaming software (OBS, Streamlabs, etc.)
-2. Add a Browser Source with the application URL
-3. Customize the appearance settings as needed
+## Building
+To create a production build:
+```bash
+npm run build
+# or
+yarn build
+```
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details
-
-## Contact
-If you have any questions or suggestions, please open an issue in the repository.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
