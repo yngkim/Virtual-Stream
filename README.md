@@ -2,6 +2,8 @@
 
 ## Overview
 A desktop streaming application that provides real-time chat overlay and streaming features. Built with React and Electron for cross-platform compatibility and WebSocket for real-time communication.
+![image](https://github.com/user-attachments/assets/3da16dd4-60fd-49a1-82d4-6456b728db7c)
+
 
 ## Tech Stack
 - **Frontend:** React
